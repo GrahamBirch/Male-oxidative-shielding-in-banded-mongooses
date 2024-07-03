@@ -1,0 +1,40 @@
+GENERAL INFORMATION
+This README.txt file was updated on 06/03/2024
+A. Mixed evidence of oxidative shielding in the ejaculates of male banded mongooses
+Citation: Ecology and Evolution submission
+Abstract: A paradox for life-history theory is that breeders appear to sustain lower levels of oxidative damage than non-breeders, despite the expectation of an oxidative cost of reproduction. The  oxidative shielding hypothesis proposes that oxidative defences are elevated during reproduction to protect offspring from oxidative damage during critical early development. While there is some empirical evidence of oxidative shielding in females, there have been no tests of this hypothesis in males, despite evidence of oxidative costs of male reproductive effort and the vulnerability of sperm cells to oxidative damage.  Here, we tested the oxidative shielding hypothesis in male banded mongooses by assessing lipid oxidative damage (MDA) in the ejaculates of reproducing and non-reproducing males. We found that ejaculate MDA levels were lower during mate competition compared to 2 months post-competition, however breeders and non-breeding individuals did not have significantly different MDA levels during mate competition. These findings offer mixed support of oxidative shielding in the ejaculates of male banded mongooses. More work is needed to understand whether such mechanisms are prevalent in nature, and to what extent protecting the next generation from intergenerational oxidative insults is a joint effort by both sexes. 
+
+Names, institutions of all authors
+C. Contact information
+Graham Birch
+gb357@exeter.ac.uk or if I no longer work at exeter, gb357u@gmail.com
+email
+D. May 2020 and January 2023
+xxx
+E. Mweya village, Princess elizabeth national park, Uganda
+xxx
+F. Funding Sources
+G.B received funding from NERC GW4+ (grant no. NE/S007504/1). Data collection has been funded by a ERC Starting Grant (SOCODEV, grant number 309249) and NERC (UK) Standard Grants (NE/E015441/1; NE/J010278/1) awarded to M.C. and NE/N011171 awarded to J.B and M.C. The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.
+
+
+ACCESS INFORMATION
+1. This data is owned by the banded mongoose research project and not open for reprublication or commerical use. We submitted this data is good faith that is would not be published in other works without our knowledge.
+ this manuscript is still is preparation please cite as Birch.g, Cant, M, Blount, J: Submission to Ecology and Evolution, June 2024
+
+DATA & CODE FILE OVERVIEW
+This data repository consists of several data files, and 4 code scripts, and this README document. 
+
+
+
+
+
+[Data used in the ejaculate MDA analysis] Each column corresponds:
+
+# 1 - Ejaculate mda concentration (in μm micromoles). 2 - Cell presence, 3 - numeric male reproductive state,4 - numeric group mating period, 5 - oestrus event id, 6 - group id, 7 - male id, 8 - male reproductive state, 9 - group mating period. 
+
+[Code scripts and workflow]
+There is only one script for the 2 models
+Containing: Some data table processing, the JAGS model code, JAGS model specification in R, output data tables, and significance/model diagnostic plots.
+
+SOFTWARE VERSIONS
+[All analysis was ran in R version 4.3.0
